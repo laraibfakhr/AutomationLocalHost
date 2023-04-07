@@ -17,6 +17,7 @@ describe('Test the localhost website',()=>{
             
             expect(emailvar).equal('Email')
             expect(passvar).equal('Password')
+            cy.log('SUCCESSFUL FUNCTION')
         })
 
 
